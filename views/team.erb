@@ -7,7 +7,7 @@
  <body>
     <h1>Team Name: <%=params[:name]%></h1>
     <% @team_info.each do |k,v| %>
-        <h2><%= k: v %></h2>
+        <h2><%= "#{k}:#{v}" %></h2>
     <% end %>
 
 
